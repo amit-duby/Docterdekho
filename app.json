@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Doctordekho",
+    "slug": "doctordekho",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/dicon2.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/sliderbanner.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#42D9C2"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "doctordekho.com",
+      "buildNumber": "19.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "doctordekho.com",
+      "versionCode": 19,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/dicon2.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "52c470af-420c-4b1b-9da1-6b4721e45c35"
+      }
+    }
+  }
+}
